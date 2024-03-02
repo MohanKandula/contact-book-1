@@ -1,0 +1,83 @@
+:root {
+    --bright-blue: #51e2f5;
+    --blue-green: #9df9ef;
+    --dusty-white: #edf756;
+    --pink-sand: #ffa8b6;
+    --dark-sand: #a28089;
+  }
+  
+  .contact-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    /* Add button styling as needed */
+  }
+  
+  .contact-table {
+    margin-bottom: 20px;
+  }
+  
+  .contact-table th,
+  .contact-table td {
+    padding: 8px 16px;
+  }
+  
+  .contact-table th {
+    background-color: var(--dusty-white);
+  }
+  
+  .contact-table tr:nth-child(even) {
+    background-color: var(--bright-blue);
+  }
+  
+  .contact-table tr:hover {
+    background-color: var(--blue-green);
+  }
+  
+  .contact-table td button {
+    background-color: var(--pink-sand);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact-table td button:hover {
+    background-color: var(--dark-sand);
+  }
+  
+  /* Custom Colors */
+  .bright-blue {
+    color: var(--bright-blue);
+  }
+  
+  .blue-green {
+    color: var(--blue-green);
+  }
+  
+  .dusty-white {
+    color: var(--dusty-white);
+  }
+  
+  .pink-sand {
+    color: var(--pink-sand);
+  }
+  
+  .dark-sand {
+    color: var(--dark-sand);
+  }
+  
